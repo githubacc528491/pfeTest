@@ -11,7 +11,7 @@ def index():
 def stt():
     transcript = ""
     r = sr.Recognizer()
-
+    # oktest
     with sr.Microphone() as source:
         print('Parlez')
         audio = r.listen(source)
